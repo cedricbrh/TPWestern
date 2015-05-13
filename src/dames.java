@@ -9,11 +9,11 @@ public class dames extends humain{
 	}
 	
 	public String kidnapper(){
-		return "AAAAAAAAAAAH, je me fait kidnapper !! ";
+		return parle("AAAAAAAAAAAH, je me fait kidnapper !!");
 	}
 	
 	public String liberer(cowboys sauveur){
-		return "Merci de m'avoir liberée "+sauveur.quelEstTonNom() + " ! ";
+		return parle("Merci de m'avoir liberée "+sauveur.quelEstTonNom() + " ! ");
 	}
 	
 	public String changeRobe(String nvelleCouleur){

@@ -8,7 +8,7 @@ public class humain {
 	}
 	
 	public String parle(String texte) {
-		 return  nom+ ' '+texte;
+		 return  nom + ": "+ texte;
 	}
 	public String presenter(){
 		return "Bonjour, je suis "+nom+"\nAh un bon verre de "+boissonFav+" ! GLOUPS !";

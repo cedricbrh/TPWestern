@@ -3,11 +3,6 @@ public class humain {
 	private String nom;
 	private String boissonFav = "Eau";
 	
-	public humain(String unNom, String unBoissonFav){
-	unNom=nom;
-	unBoissonFav=boissonFav;
-	}
-	
 	public humain(String unNom){
 		nom = unNom;
 	}
@@ -20,11 +15,11 @@ public class humain {
 	}
 	
 	public String quelEstTonNom(){
-		return "";
+		return nom;
 	}
 	
 	public String quelEstTaBoisson(){
-		return "";
+		return boissonFav;
 	}
 	
 }

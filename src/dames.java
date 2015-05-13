@@ -1,4 +1,3 @@
-
 public class dames extends humain{
 	private String couleurRobe;
 	private String etat;	
@@ -14,7 +13,7 @@ public class dames extends humain{
 	}
 	
 	public String liberer(cowboys sauveur){
-		return "Merci de m'avoir liberée ".sauveur.quelEstTonNom() + " ! ";
+		return "Merci de m'avoir liberée "+sauveur.quelEstTonNom() + " ! ";
 	}
 	
 	public String changeRobe(String nvelleCouleur){

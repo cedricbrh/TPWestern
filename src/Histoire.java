@@ -11,7 +11,7 @@ public class Histoire {
 		System.out.println(dames1.kidnapper());
 		System.out.println(dames1.changeRobe("Bleu"));
 		
-		
+
 	}
 
 }

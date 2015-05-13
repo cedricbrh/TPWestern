@@ -1,4 +1,3 @@
-
 public class brigands extends humain{
 	private String look = "méchant";
 	private int nbDamesEnlever;

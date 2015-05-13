@@ -1,4 +1,4 @@
 
-public class brigands extends humain{
+/*public class brigands extends humain{
 
-}
+}*/

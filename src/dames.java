@@ -1,4 +1,4 @@
 
-public class dames extends humain{
+/*public class dames extends humain{
 
-}
+}*/

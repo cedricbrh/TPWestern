@@ -3,12 +3,13 @@ public class dames extends humain{
 	private String etat;	
 	
 	public dames(String unNom, String uneCouleur, String unEtat){
-		super(unNom);
+		super(unNom, "lait");
 		couleurRobe = uneCouleur;
 		etat = unEtat;
 	}
 	
 	public String kidnapper(){
+		etat = "captive"; 
 		return parle("AAAAAAAAAAAH, je me fait kidnapper !!");
 	}
 	
@@ -18,7 +19,16 @@ public class dames extends humain{
 	
 	public String changeRobe(String nvelleCouleur){
 		couleurRobe = nvelleCouleur;
-		return "Regardez ma nouvelle robe "+nvelleCouleur + " !";
+		return parle("Regardez ma nouvelle robe "+couleurRobe+ " !");
 		
+	}
+	public String quelEstTonNom(){
+		String nom= super.quelEstTonNom();
+		return "Miss "+ nom;
+	}
+	
+	public String presenter(){
+		String res = super.presenter();
+		return res + " Ma robe est "+couleurRobe+" !";
 	}
 }
